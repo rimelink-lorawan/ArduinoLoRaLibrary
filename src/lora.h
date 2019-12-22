@@ -28,9 +28,9 @@ public:
     int write(const void *p_vData, int bySize);
 
 private:
-	byte CalcCS(const void *p_vBuf, int nSize);
-	void handleRxData(uint8_t inChar);
-	bool rxDataReady(void);
+    byte CalcCS(const void *p_vBuf, int nSize);
+    void handleRxData(uint8_t inChar);
+    bool rxDataReady(void);
 };
 #endif
 //
