@@ -18,7 +18,7 @@
 //
 /* Private macro -------------------------------------------------------------*/
 #define RX_BUFFER_LEN   255
-#define MAX_LEN_UART_FRAME_DATA    200
+#define MAX_LEN_UART_FRAME_DATA    (222+2)  // 2=MType+FPort, SF7~9=222
 #define COMM_TRM_HEAD    0x3Cu
 #define COMM_TRM_TAIL    0x0Du
 #define PTR_NULL    ((void *)0)
