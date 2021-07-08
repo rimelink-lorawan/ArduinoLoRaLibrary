@@ -14,18 +14,19 @@ ArduinoLoRaLibrary.ino 是测试代码示例，它包含 TestClassA 和 TestClas
 
 /*****************************************************************************/
 
-将 lora.cpp 和 lora.h 替换下面路径的“旧”文件
+已经安装库的用户将 lora.cpp 和 lora.h 替换下面路径的“旧”文件
+
 C:\Users\Administrator\Documents\Arduino\libraries\ArduinoLoRaLibrary-1.1
 
 
 /*****************************************************************************/
 
 2021-07-06
-1）节省了 RAM 空间 50% 以上；
-2）添加了 TestClassA 和 TestClassC；
-3）扩展了 LoRa.write() 允许发送 Unconfirmed / Confirmed；
-4）扩展了 LoRa.read() 能接收 RSSI 和 SNR 信号质量，接收 ACK
-5）改进了匹配 LoRa 帧算法效率，修改了一些已知的错误
+- 节省了 RAM 空间 50% 以上；
+- 添加了 TestClassA 和 TestClassC；
+- 扩展了 LoRa.write() 允许发送 Unconfirmed / Confirmed；
+- 扩展了 LoRa.read() 能接收 RSSI 和 SNR 信号质量，接收 ACK
+- 改进了匹配 LoRa 帧算法效率，修改了一些已知的错误
 
 2019-10-27
-初次发布，能正确对接 LoRa 模组。
+- 初次发布，能正确对接 LoRa 模组。
